@@ -4,8 +4,8 @@ services:
 - type: web
   name: atfg
   env: static
-#  buildCommand: hugo --gc --minify
-  staticPublishPath: tmp
+  buildCommand: hugo --gc --minify
+  staticPublishPath: public
   pullRequestPreviewsEnabled: true     # optional
 
 envVarGroups:
