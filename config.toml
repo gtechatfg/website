@@ -2,3 +2,4 @@ baseURL = ""
 languageCode = "en-us"
 title = "GTech Academic &amp; Technology Fovus Group"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+discriminator = ""

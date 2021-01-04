@@ -1,0 +1,14 @@
+.inner-page .page-header {
+    min-height: initial;
+    margin-bottom: 30px;
+}
+
+
+.info.gtech {
+    width: 100%;
+    max-width: initial;
+}
+
+.info.gtech i {
+    vertical-align: middle;
+}
