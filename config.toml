@@ -1,5 +1,5 @@
 baseURL = ""
 languageCode = "en-us"
-title = "GTech Academic &amp; Technology Fovus Group"
+title = "GTech Academic & Technology Focus Group"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 discriminator = ""
