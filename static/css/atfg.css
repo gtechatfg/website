@@ -3,6 +3,24 @@
     margin-bottom: 30px;
 }
 
+.page-header-image {
+    background-image: url('/assets/img/ill/p2.svg');
+}
+
+.home .page-header-image {
+    background-image: url('/assets/img/ill/index_bg.svg');
+    background-size: cover;
+    background-position: center 20px;
+}
+
+.home .page-header .container .col {
+    text-align: center;
+    width: 100%;
+    max-width: 60%;
+    flex: none;
+    margin: 0 auto;
+}
+
 
 .info.gtech {
     width: 100%;
