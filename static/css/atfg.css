@@ -44,10 +44,10 @@
     height: 100%;
 }
 
-.section.bg-secondary + .section {
-    margin-top: 0;
-    padding-top: 0;
-}
+/*.section.bg-secondary + .section {*/
+/*    margin-top: 0;*/
+/*    padding-top: 0;*/
+/*}*/
 
 
 
@@ -103,6 +103,10 @@ header + section.section {
     padding-right: 0;
 }
 
+.features-1 .info-title {
+    padding-right: 0;
+}
+
 
 @media (max-width: 991.98px) {
     .section.features-2 .pr-md-5 {
@@ -114,4 +118,12 @@ header + section.section {
         max-width: 80vw;
         margin: 0 auto;
     }
+}
+
+
+
+
+
+.section.participate-others .card .card-body {
+    padding-top: 0px;
 }
