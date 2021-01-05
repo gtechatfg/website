@@ -61,15 +61,17 @@
         <div class="container">
             <div class="row">
                 <div class="col col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">
-                    <h3 class="display-3">ATFG &#120641;Learn</h3>
-                    <p class="lead mt-0">&#120641;Learn is a framework designed to
-                        guide Students to become Industry Ready. &#120641;Learn is
-                        developed and maintained by GTech, the premier association
-                        of Tech companies in Kerala.</p>
-                    <br>
-                    <div class="buttons"><a class="btn btn-danger"
-                                            href="/participate/">Get Started</a>
-                    </div>
+                    {{ block "banner" .}}
+                        <h3 class="display-3">ATFG &#120641;Learn</h3>
+                        <p class="lead mt-0">&#120641;Learn is a framework designed to
+                            guide Students to become Industry Ready. &#120641;Learn is
+                            developed and maintained by GTech, the premier association
+                            of Tech companies in Kerala.</p>
+                        <br>
+                        <div class="buttons"><a class="btn btn-danger"
+                                                href="/participate/">Get Started</a>
+                        </div>
+                    {{ end }}
                 </div>
             </div>
         </div>
