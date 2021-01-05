@@ -103,7 +103,11 @@ header + section.section {
     padding-right: 0;
 }
 
-.features-1 .info-title {
+.features-1 .info .info-title {
+    padding-right: 0;
+}
+
+.features-1 .info .description {
     padding-right: 0;
 }
 
