@@ -44,6 +44,10 @@
     height: 100%;
 }
 
+.benefits .card {
+    height: 100%;
+}
+
 /*.section.bg-secondary + .section {*/
 /*    margin-top: 0;*/
 /*    padding-top: 0;*/
