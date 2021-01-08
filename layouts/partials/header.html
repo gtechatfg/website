@@ -1,79 +1,57 @@
-<header class="header-1">
-    <nav class="navbar navbar-expand-lg bg-default navbar-absolute navbar-dark">
-        <div class="container">
-            <a class="navbar-brand text-white" href="/">ATFG</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbar-header-1" aria-controls="navbar-header-1"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbar-header-1">
-                <div class="navbar-collapse-header">
-                    <div class="row">
-                        <div class="col-6 collapse-brand"><a
-                                href="javascript:;" class="navbar-brand text-darker">ATFG</a>
-                        </div>
-                        <div class="col-6 collapse-close">
-                            <button class="navbar-toggler" type="button"
-                                    data-toggle="collapse"
-                                    data-target="#navbar-header-1"
-                                    aria-controls="navbar-header-1"
-                                    aria-expanded="false"
-                                    aria-label="Toggle navigation">
-                                <span></span><span></span></button>
-                        </div>
+<nav class="navbar navbar-expand-lg bg-default navbar-absolute navbar-dark">
+    <div class="container">
+        <a class="navbar-brand text-white" href="/">ATFG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbar-header-1" aria-controls="navbar-header-1"
+                aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-header-1">
+            <div class="navbar-collapse-header">
+                <div class="row">
+                    <div class="col-6 collapse-brand"><a
+                            href="javascript:;" class="navbar-brand text-darker">ATFG</a>
+                    </div>
+                    <div class="col-6 collapse-close">
+                        <button class="navbar-toggler" type="button"
+                                data-toggle="collapse"
+                                data-target="#navbar-header-1"
+                                aria-controls="navbar-header-1"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span></span><span></span></button>
                     </div>
                 </div>
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link text-white"
-                                            href="/program/">Program</a></li>
-                    <li class="nav-item"><a class="nav-link text-white"
-                                            href="/whoweare/">Who We Are</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link text-white" class="nav-link" data-toggle="dropdown" role="button"
-                                            href="/participate/">Participate</a>
-                        <div class="dropdown-menu"
-                             aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/participate/">
-                                as a Student
-                            </a>
-                            <a class="dropdown-item" href="/participate/community/">
-                                as a Community/Open Source project
-                            </a>
-                            <a class="dropdown-item" href="/participate/company/">
-                                as a Company
-                            </a>
-                            <a class="dropdown-item" href="/participate/teacher/">
-                                as a Teacher
-                            </a>
-                            <a class="dropdown-item" href="/participate/college/">
-                                as a College
-                            </a>
-                            <a class="dropdown-item" href="/participate/mentor/">
-                                as a Mentor
-                            </a>
-                        </div>
-                    </li>
-                </ul>
             </div>
-        </div>
-    </nav>
-    <div class="page-header">
-        <div class="page-header-image"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">
-                    {{ block "banner" .}}
-                        <h3 class="display-3">ATFG &#120641;Learn</h3>
-                        <p class="lead mt-0">&#120641;Learn is a framework designed to
-                            guide Students to become Industry Ready. &#120641;Learn is
-                            developed and maintained by GTech, the premier association
-                            of Tech companies in Kerala.</p>
-                        <br>
-                        <div class="buttons"><a class="btn btn-danger"
-                                                href="/participate/">Get Started</a>
-                        </div>
-                    {{ end }}
-                </div>
-            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-white"
+                                        href="/program/">Program</a></li>
+                <li class="nav-item"><a class="nav-link text-white"
+                                        href="/whoweare/">Who We Are</a></li>
+                <li class="nav-item dropdown"><a class="nav-link text-white" class="nav-link" data-toggle="dropdown" role="button"
+                                        href="/participate/">Participate</a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/participate/">
+                            as a Student
+                        </a>
+                        <a class="dropdown-item" href="/participate/community/">
+                            as a Community/Open Source project
+                        </a>
+                        <a class="dropdown-item" href="/participate/company/">
+                            as a Company
+                        </a>
+                        <a class="dropdown-item" href="/participate/teacher/">
+                            as a Teacher
+                        </a>
+                        <a class="dropdown-item" href="/participate/college/">
+                            as a College
+                        </a>
+                        <a class="dropdown-item" href="/participate/mentor/">
+                            as a Mentor
+                        </a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
-</header>
+</nav>

@@ -76,19 +76,19 @@ a.btn.btn-link.btn-primary[type="button"] {
 
 
 a.navbar-brand {
-    font-family: 'Bevan', cursive;
-    font-family: 'Bowlby One', cursive;
-    font-family: 'Bowlby One SC', cursive;
-    font-family: 'Bungee', cursive;
-    font-family: 'Bungee Inline', cursive;
-    font-family: 'Bungee Outline', cursive;
-    font-family: 'Changa One', cursive;
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Lalezar', cursive;
-    font-family: 'Racing Sans One', cursive;
-    font-family: 'Rowdies', cursive;
-    font-family: 'Vast Shadow', cursive;
-    font-family: 'Bungee Shade', cursive;
+    /*font-family: 'Bevan', cursive;*/
+    /*font-family: 'Bowlby One', cursive;*/
+    /*font-family: 'Bowlby One SC', cursive;*/
+    /*font-family: 'Bungee', cursive;*/
+    /*font-family: 'Bungee Inline', cursive;*/
+    /*font-family: 'Bungee Outline', cursive;*/
+    /*font-family: 'Changa One', cursive;*/
+    /*font-family: 'Fredericka the Great', cursive;*/
+    /*font-family: 'Lalezar', cursive;*/
+    /*font-family: 'Racing Sans One', cursive;*/
+    /*font-family: 'Rowdies', cursive;*/
+    /*font-family: 'Vast Shadow', cursive;*/
+    font-family: 'Bungee Shade', sans-serif;
     font-size: 2em;
     font-weight: normal;
     padding-right: 40px;
