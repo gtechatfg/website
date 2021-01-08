@@ -55,6 +55,17 @@
 
 
 
+.aaronchettan .bot-avatar {
+    background-image: url(/img/aaron.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 250px;
+    width: 100%;
+    border-radius: 250px;
+}
+
+
 a.btn.btn-link[type="button"]:hover {
     color: #fff !important;
 }
