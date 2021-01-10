@@ -66,11 +66,11 @@
 }
 
 
-a.btn.btn-link[type="button"]:hover {
+a.btn.btn-link:hover {
     color: #fff !important;
 }
 
-a.btn.btn-link.btn-primary[type="button"] {
+a.btn.btn-link.btn-primary {
     color: #fff !important;
 }
 
