@@ -115,7 +115,7 @@ header + section.section {
 .features-1 .info {
     max-width: 450px;
     text-align: center;
-    padding-right: 0;
+    /*padding-right: 0;*/
 }
 
 .features-1 .info .info-title {
