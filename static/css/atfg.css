@@ -37,6 +37,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0px;
+    min-height: 200px;
+    height: 200px;
 }
 
 
