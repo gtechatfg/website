@@ -56,6 +56,19 @@
 /*}*/
 
 
+.card-profile[data-background=full] .card-body {
+    width: 100%;
+    padding: 12px 32px 0px;
+    background: #fffb;
+    margin: 0 auto;
+    line-height: 14px;
+}
+
+.card-profile[data-background=full] .card-body h4 {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
 
 .aaronchettan .bot-avatar {
     background-image: url(/img/aaron.png);
