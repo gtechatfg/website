@@ -1,3 +1,11 @@
+nav.navbar .navbar-brand::before {
+    content: "";
+    background: url('/img/atfg.svg');
+    display: inline-block;
+}
+
+
+
 .inner-page .page-header {
     min-height: initial;
     margin-bottom: 30px;
