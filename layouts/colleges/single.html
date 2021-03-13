@@ -1,0 +1,21 @@
+{{ define "banner" }}
+    <h3 class="display-3">For Kerala, By Kerala</h3>
+    <p class="lead mt-0">Our program coordinates premier industry and
+        top universities in Kerala, to support Kerala based
+        Students to become Industry Ready.</p>
+{{ end }}
+
+
+{{ define "main" }}
+  <section>
+    {{range .Site.Data.colleges}}
+      <div class="d-inline-flex p-2">
+        {{.collegeName}}<br>
+        Rank - {{.rank}}<br>
+        Score - {{.score}}<br>
+      </div>
+    {{end}}
+  </section>
+  {{ .Content }}
+{{ end }}
+
