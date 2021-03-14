@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 invoke = "*"
 pymysql = "*"
+requests = "*"
 
 [dev-packages]
 

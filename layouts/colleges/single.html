@@ -1,0 +1,22 @@
+{{ define "banner" }}
+    <h3 class="display-3">Colleges - Leaderboard</h3>
+    <p class="lead mt-0">Based on Student and Enabler activity in ATFG, here is the ranking
+        of colleges in Kerala</p>
+{{ end }}
+
+
+{{ define "main" }}
+    <section>
+        <div class="container">
+            {{range .Site.Data.colleges}}
+            <div class="row">
+                {{.collegeName}}<br>
+                Rank - {{.rank}}<br>
+                Score - {{.score}}<br>
+            </div>
+            {{end}}
+        </div>
+    </section>
+    {{ .Content }}
+{{ end }}
+

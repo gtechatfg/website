@@ -2,6 +2,6 @@ services:
 - type: web
   name: atfg
   env: static
-  buildCommand: hugo --gc --minify
+  buildCommand: invoke build
   staticPublishPath: public
   pullRequestPreviewsEnabled: true     # optional
