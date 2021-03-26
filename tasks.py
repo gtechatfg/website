@@ -8,7 +8,7 @@ API_ROOT = "https://api.atfg.gtechindia.org/"
 @task
 def build(c):
     # fetch student and college data from api
-    colleges = requests.get(API_ROOT+"colleges").json()
+    colleges = requests.get(API_ROOT+"college").json()
     students = requests.get(API_ROOT+"students").json()
 
     # write to json files in data directory
