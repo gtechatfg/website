@@ -3,6 +3,6 @@ services:
 - type: web
   name: atfg
   env: static
-  buildCommand: invoke build
+  buildCommand: invoke builder
   staticPublishPath: public
   pullRequestPreviewsEnabled: true     # optional
