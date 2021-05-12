@@ -1,18 +1,29 @@
 {{ define "banner" }}
-    <h3 class="display-3">Students - Leaderboard</h3>
-    <p class="lead mt-0">Based on activity in ATFG, here is the ranking of students in
-        Kerala</p>
+<h3 class="display-3">Students - Leaderboard</h3>
+<p class="lead mt-0">Based on activity in ATFG, here is the ranking of students in
+    Kerala</p>
 {{ end }}
+
 
 {{ define "main" }}
     <section>
-        <div class="container">
+        <div class="row"  style="margin: 2%;">
             {{range .Site.Data.students}}
-            <div class="row">
-                Name - {{.studentName}}<br>
-                College - {{.college}}<br>
-                Rank - {{.rank}}<br>
-                Score - {{.score}}<br>
+            <div class="card-col col-lg-4 col-md-6">
+                <div class="card" style="background-color:rgb(242, 242, 255);
+                 padding: 5%;
+                ">
+                <div class="card-header" style="background-color:rgb(242, 242, 255);
+                padding: 0 0 10px 0;
+                ">
+                    Rank - {{.rank}}<br>
+                </div>
+                <div class="card-body" style="padding: 2% 0 0 0;">
+                    Name - {{.studentName}}<br>
+                    College - {{.college}}<br>
+                    Score - {{.score}}<br>
+            </div>
+                </div>
             </div>
             {{end}}
         </div>
