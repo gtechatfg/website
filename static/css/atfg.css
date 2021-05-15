@@ -169,10 +169,29 @@ header + section.section {
     }
 }
 
-
-
-
-
 .section.participate-others .card .card-body {
     padding-top: 0px;
 }
+
+@media (max-width: 768px) {
+    .home .page-header .container .col {
+        max-width: 100%;
+        text-align: center!important;
+    }
+    .page-header {
+        min-height: auto;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .contactus-3 .display-1 {
+        font-size: 2rem;
+    }
+    .contactus-3 .features-6 .info {
+        padding: 0;
+    }
+}   
