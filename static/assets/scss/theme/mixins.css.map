@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "mixins.scss",
+        "mixins/alert.scss",
+        "mixins/buttons.scss",
+        "mixins/cards.scss",
+        "mixins/dropdown.scss",
+        "mixins/social-buttons.scss",
+        "mixins/background-variant.scss",
+        "mixins/icon.scss",
+        "mixins/modals.scss",
+        "mixins/popover.scss"
+    ],
+    "names": [],
+    "file": "mixins.css"
+}
