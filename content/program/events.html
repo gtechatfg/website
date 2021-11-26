@@ -15,6 +15,9 @@ draft: false
     justify-content: center;
     padding-right: 180px;
 }
+.ect-list-title {
+    padding-top: 10px;
+}
 
     .ect-clslist-event-date {
         display: table-cell;
@@ -41,6 +44,10 @@ draft: false
         padding: 0px 1px;
         text-align: center;
         margin-top: 50px;
+        border-right: 1px solid ;
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+        border-color: #e5e5e5;
     }
 
     .ect-clslist-event-details {
@@ -48,8 +55,13 @@ draft: false
         display: table-cell;
         width: 180px;
         text-align: center;
+        font-weight: bold;
         padding-top: 80px;
+        font-size: 14px;
     }
+.ect-clslist-event-details:hover {
+background-color: #e5e5e5;
+}
 
     .ect-clslist-event-details a.tribe-events-read-more {
         display: flex;
@@ -66,13 +78,6 @@ draft: false
         box-shadow: none;
         font-weight: bold;
     }
-
-@media (min-width: 550px) {
-        .event-info {
-        padding-left: 90px;
-        padding-right: 90px;
-    }
-}
 
 </style>
 
@@ -92,59 +97,17 @@ draft: false
     <div class="ect-clslist-event-date">
         <div>
             <span class="ev-day">27</span>
-            <span class="ev-mo">June</span>
+            <span class="ev-mo">December</span> <!--More letter months like December, November goes one line Down -->
             <span class="ev-yr">2021</span>
         </div>
     </div>
     <div class="event-box-info">
         <div class="event-info">
             <h2 class="ect-list-title">
-                    OWASP CTF
+                   Event Name Goes Here  
             </h2>
             <div class="when-to-when">
-                <span class="cls-list-time" style="padding-left: 8px;">June 27 - December 25</span>
-            </div>
-             <br>
-            <div class="ect-list-venue default-venue">
-                <span class="ect-icon">
-                    <i class="ect-icon-location" aria-hidden="true"></i>
-                </span>
-                <!-- Venue Display Info -->
-                <span class="ect-venue-details ect-address">
-                    <meta itemprop="name" content="Leisure Valley">
-                    <div>
-                        <p>Content Goes Here</p>
-                    </div>
-                </span>
-                <br>
-            </div>
-        </div>
-        <br>
-    </div>
-    <div class="ect-clslist-event-details">
-        <a href="#" class="tribe-events-read-more">
-            Find out more
-        </a>
-</div>
-</section>
-    <br>
-    <br>
-<section id="section" class="position-to-the-event-line">
-<div id="event-15" class="style-3">
-    <div class="ect-clslist-event-date">
-        <div>
-            <span class="ev-day">27</span>
-            <span class="ev-mo">June</span>
-            <span class="ev-yr">2021</span>
-        </div>
-    </div>
-    <div class="event-box-info">
-        <div class="event-info">
-            <h2 class="ect-list-title">
-                    OWASP CTF
-            </h2>
-            <div class="when-to-when">
-                <span class="cls-list-time" style="padding-left: 8px;">June 27 - December 25</span>
+                <span class="cls-list-time" style="padding-left: 8px;">When-TO-When Goes Here</span>
             </div>
              <br>
             <div class="ect-list-venue default-venue">
@@ -163,9 +126,53 @@ draft: false
         </div>
         <br>
     </div>
-    <div class="ect-clslist-event-details">
-        <a href="#" class="tribe-events-read-more">
-            Find out more
-        </a>
+        <a href="#" class="ect-clslist-event-details">
+    <div>
+            FIND OUT MORE
 </div>
+        </a>
+</section>
+    <br>
+    <br>
+<section id="section" class="position-to-the-event-line">
+<div id="event-15" class="style-3">
+    <div class="ect-clslist-event-date">
+        <div>
+            <span class="ev-day">27</span>
+            <br>
+            <span class="ev-mo">June</span> <!--If you want small lettred months to go one line down then add break like this-->
+            <br>
+            <span class="ev-yr">2021</span>
+        </div>
+    </div>
+    <div class="event-box-info">
+        <div class="event-info">
+            <h2 class="ect-list-title">
+                   Event Name Goes Here  
+            </h2>
+            <div class="when-to-when">
+                <span class="cls-list-time" style="padding-left: 8px;">When-TO-When Goes Here</span>
+            </div>
+             <br>
+            <div class="ect-list-venue default-venue">
+                <span class="ect-icon">
+                    <i class="ect-icon-location" aria-hidden="true"></i>
+                </span>
+                <!-- Venue Display Info -->
+                <span class="ect-venue-details ect-address">
+                    <meta itemprop="name" content="Leisure Valley">
+                    <div>
+                        <p>Content Goes Here</p>
+                    </div>
+                    <br>
+                </span>
+                <br>    
+            </div>
+        </div>
+    </div>
+        <a href="#" class="ect-clslist-event-details">
+    <div>
+            FIND OUT MORE
+</div>
+        </a>
 </section>
